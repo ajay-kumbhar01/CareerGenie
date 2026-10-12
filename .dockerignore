@@ -1,0 +1,65 @@
+# ==========================
+# Dependencies
+# ==========================
+node_modules
+.pnp
+.pnp.*
+.yarn
+
+# ==========================
+# Next.js build output
+# ==========================
+.next
+out
+build
+
+# ==========================
+# Environment & secrets
+# ==========================
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+
+# ==========================
+# Version control
+# ==========================
+.git
+.gitignore
+
+# ==========================
+# CI/CD
+# ==========================
+.github
+
+# ==========================
+# IDE & editor
+# ==========================
+.vscode
+.idea
+*.swp
+*.swo
+.DS_Store
+
+# ==========================
+# Debug logs
+# ==========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==========================
+# Docker
+# ==========================
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# ==========================
+# Documentation & misc
+# ==========================
+README.md
+LICENSE
+*.md
